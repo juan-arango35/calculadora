@@ -1,6 +1,6 @@
 const display = document.querySelector("#display");
 //solo utilizamos una pantalla por eso utilizamos queryselectro
-const buttons = document.querySelectorAll("#button");
+const buttons = document.querySelectorAll("button");
 //utilizamos queryselectorall por q seleccionamos todos los botones ,ya que son varios. cogemos toas las etiquetas button.
 
 buttons.forEach((item) => {
